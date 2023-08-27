@@ -1,4 +1,4 @@
-/* Cabecalho */
+/* Cabeçalho */
 
 .menu {
     display: flex;
@@ -43,7 +43,7 @@
     max-width: 400px;
 }
 
-/* Agenda */
+/*Agenda ATIVIDADE PARA SABER MAIS */
 
 .agenda__lista {
     display: flex;
@@ -57,7 +57,7 @@
     flex-grow: 1;
 }
 
-/* Rodapé */
+/* Rodapé */ 
 
 .rodape {
     display: flex;
@@ -69,10 +69,9 @@
     align-self: end;
 }
 
-
 @media (min-width: 720px) {
 
-    /* Cabecalho */
+    /* Cabeçalho */
 
     .menu {
         column-gap: 75px;
@@ -89,7 +88,7 @@
     /* Eventos */
 
     .eventos__lista {
-        justify-content: flex-end;
+        justify-content: end;
     }
 
     /* Agenda */
@@ -102,7 +101,7 @@
 
 @media (min-width: 1440px) {
 
-    /* Cabecalho */
+    /* Cabeçalho */
 
     .menu {
         column-gap: 105px;
